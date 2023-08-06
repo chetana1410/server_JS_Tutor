@@ -6,7 +6,6 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [API Endpoints](#api-endpoints)
 - [Environment Variables](#environment-variables)
 - [Initializing the App](#initializing-the-app)
 - [Contributing](#contributing)
@@ -40,22 +39,6 @@ cd your_project
 ```
 pip install -r requirements.txt
 ```
-
-## API Endpoints
-
-The backend exposes the following two API endpoints:
-
-1. **Endpoint 1**: [POST] `/api/endpoint1`
-
-   - This endpoint receives requests from the client and validates them.
-   - It then forwards the validated request to the OpenAI API using the stored API key.
-   - Upon receiving the response from the OpenAI endpoint, it submits the same response back to the client.
-
-2. **Endpoint 2**: [POST] `/api/endpoint2`
-
-   - Similar to Endpoint 1, this endpoint receives requests from the client and validates them.
-   - It forwards the validated request to the OpenAI API using the stored API key.
-   - Once the response from the OpenAI endpoint is received, it sends it back as a response to the client.
 
 ## Environment Variables
 
