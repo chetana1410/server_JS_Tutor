@@ -12,6 +12,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:8501",  # Replace this with the actual frontend URL
+    "https://js-tutor-client.onrender.com"
 ]
 
 # Enable CORS using the CORSMiddleware
